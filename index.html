@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Tip Calculator - V 1.0.0</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="formDiv">
+        <h1>Tip Calculator</h1>
+        <form id="tipForm">
+          <div class="prompt">
+            <span>How much was your bill?</span><br />
+            <input id="billAmt" type="number" step="0.01" min="0.00" placeholder="$0.00" required /><br />
+          </div>
+
+          <div class="prompt">
+            <span>How was your service?</span><br />
+            <select id="srvQual" name="serviceQuality" required>
+              <option value="10">Fair</option>
+              <option value="15">Decent</option>
+              <option value="20">Good</option>
+              <option value="25">Great</option>
+              <option value="30">Outstanding</option></select
+            ><br />
+          </div>
+
+          <div class="prompt">
+            <span>How many people are sharing the bill?</span><br />
+            <input id="personCount" type="number" min="1" value="1" required /><br />
+          </div>
+
+          <input id="sumbitButton" type="submit" value="Calculate" />
+        </form>
+
+        <div id="resultsDiv">
+          <ul id="results"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

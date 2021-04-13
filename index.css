@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+colorPallet {
+  color: #e3cd8d #dec371 #127687 #2d8712 #c2aa0c;
+}
+
+#container {
+  text-align: center;
+}
+
+#formDiv {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #127687;
+  margin: 5% 1% 1% 1%;
+  padding: 5px;
+  text-align: left;
+}
+
+#formDiv h1 {
+  text-align: center;
+}
+
+#tipForm {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #dec371;
+  margin: 3%;
+  padding: 10px;
+}
+
+h1 {
+  display: block;
+  margin: auto;
+  text-align-last: center;
+  font-variant-caps: all-petite-caps;
+  font-weight: bold;
+  color: white;
+}
+
+.prompt {
+  padding: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+}
+
+input[type="submit"] {
+  font-variant-caps: all-petite-caps;
+  font-size: medium;
+  font-weight: bold;
+  width: 50%;
+  color: white;
+  background-color: #2d8712;
+  position: relative;
+  left: 25%;
+  right: 25%;
+  margin: 5px;
+}
+
+#resultsDiv {
+  margin: 3%;
+  border-radius: 10px;
+  background-color: #dec371;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+  padding: 3px;
+}
